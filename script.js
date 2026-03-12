@@ -19,30 +19,30 @@ const ages = [
 ];
 
 const products = [
-    { id: 1, name: 'Galactic Ranger Action Figure', category: 'action-figures', age: '6-8', price: 24.99, rating: 4.8, img: 'https://images.unsplash.com/photo-1596461404969-9ce20c714f62?w=500&auto=format&fit=crop&q=60', badge: 'hot' },
-    { id: 2, name: 'Princess Castle Playset', category: 'dolls', age: '3-5', price: 59.99, rating: 4.5, img: 'https://images.unsplash.com/photo-1558066164-16a8afaf82bd?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 3, name: 'Mega Brick Creator set', category: 'building', age: '6-8', price: 45.00, rating: 4.9, img: 'https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?w=500&auto=format&fit=crop&q=60', badge: 'new' },
-    { id: 4, name: 'Telescope Explorer Kit', category: 'educational', age: '9-12', price: 34.50, rating: 4.2, img: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 5, name: 'Super Soaker Water Blaster', category: 'outdoor', age: '6-8', price: 19.99, rating: 4.6, img: 'https://images.unsplash.com/photo-1620331006093-6c8a00ddf8dc?w=500&auto=format&fit=crop&q=60', badge: 'sale', oldPrice: 29.99 },
-    { id: 6, name: 'Giant Plush Teddy Bear', category: 'stuffed-animals', age: '0-2', price: 39.99, rating: 5.0, img: 'https://images.unsplash.com/photo-1534165561334-0818276f7c70?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 7, name: 'RC Racing Car Pro', category: 'vehicles', age: '9-12', price: 49.99, rating: 4.7, img: 'https://images.unsplash.com/photo-1594787317208-e8cb5219ddef?w=500&auto=format&fit=crop&q=60', badge: 'hot' },
-    { id: 8, name: 'Ultimate Slime Kit', category: 'arts-crafts', age: '6-8', price: 22.00, rating: 4.3, img: 'https://images.unsplash.com/photo-1610486660634-192aa7f4f6b2?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 9, name: 'Super Hero Action Figure', category: 'action-figures', age: '3-5', price: 15.99, rating: 4.4, img: 'https://images.unsplash.com/photo-1597818987453-6efdc5db91ee?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 10, name: 'Fashion Doll Collection', category: 'dolls', age: '6-8', price: 29.99, rating: 4.6, img: 'https://plus.unsplash.com/premium_photo-1678229875475-7b64510b6413?w=500&auto=format&fit=crop&q=60', badge: 'new' },
-    { id: 11, name: 'Creative Blocks XXL', category: 'building', age: '0-2', price: 35.00, rating: 4.8, img: 'https://images.unsplash.com/photo-1594236968032-4876b328a1ea?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 12, name: 'Robot Chemistry Lab', category: 'educational', age: '13+', price: 65.00, rating: 4.9, img: 'https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?w=500&auto=format&fit=crop&q=60', badge: 'sale', oldPrice: 79.99 },
-    { id: 13, name: 'Foldable Kick Scooter', category: 'outdoor', age: '6-8', price: 55.00, rating: 4.7, img: 'https://plus.unsplash.com/premium_photo-1661628178652-52ce6d428135?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 14, name: 'Fluffy Bunny Stuffed Toy', category: 'stuffed-animals', age: '0-2', price: 14.50, rating: 4.5, img: 'https://images.unsplash.com/photo-1559419134-8c430e461a1b?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 15, name: 'Die-Cast Police Cruiser', category: 'vehicles', age: '3-5', price: 12.99, rating: 4.6, img: 'https://images.unsplash.com/photo-1621255855217-1fce774221d6?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 16, name: 'Watercolor Paint Set', category: 'arts-crafts', age: '13+', price: 18.00, rating: 4.1, img: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 17, name: 'Dragon Knight Miniature', category: 'action-figures', age: '9-12', price: 19.99, rating: 4.7, img: 'https://images.unsplash.com/photo-1591585093751-2292f3af5e6b?w=500&auto=format&fit=crop&q=60', badge: 'hot' },
-    { id: 18, name: 'Dream Dollhouse', category: 'dolls', age: '6-8', price: 120.00, rating: 4.9, img: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=500&auto=format&fit=crop&q=60', badge: 'sale', oldPrice: 150.00 },
-    { id: 19, name: 'Motorized Train Set', category: 'building', age: '9-12', price: 89.99, rating: 4.8, img: 'https://images.unsplash.com/photo-1563200782-fa5fed1765c9?w=500&auto=format&fit=crop&q=60', badge: 'new' },
-    { id: 20, name: 'Dinosaur Fossil Dig Kit', category: 'educational', age: '6-8', price: 21.50, rating: 4.4, img: 'https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 21, name: 'Junior Basketball Hoop', category: 'outdoor', age: '3-5', price: 42.00, rating: 4.5, img: 'https://images.unsplash.com/photo-1629255267440-62aa539423c5?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 22, name: 'Talking Parrot Plush', category: 'stuffed-animals', age: '3-5', price: 24.99, rating: 4.2, img: 'https://images.unsplash.com/photo-1606121408801-b7692fcab9ea?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 23, name: 'Fire Engine Truck', category: 'vehicles', age: '3-5', price: 28.50, rating: 4.6, img: 'https://images.unsplash.com/photo-1614013442385-e105e46dd240?w=500&auto=format&fit=crop&q=60', badge: '' },
-    { id: 24, name: 'Bead Jewelry Maker', category: 'arts-crafts', age: '9-12', price: 16.99, rating: 4.3, img: 'https://images.unsplash.com/photo-1550985955-f2dcb6bebbef?w=500&auto=format&fit=crop&q=60', badge: '' }
+    { id: 1, name: 'Galactic Ranger Action Figure', category: 'action-figures', age: '6-8', price: 1499, rating: 4.8, img: 'https://images.unsplash.com/photo-1596461404969-9ce20c714f62?w=500&auto=format&fit=crop&q=60', badge: 'hot' },
+    { id: 2, name: 'Princess Castle Playset', category: 'dolls', age: '3-5', price: 3499, rating: 4.5, img: 'https://images.unsplash.com/photo-1558066164-16a8afaf82bd?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 3, name: 'Mega Brick Creator set', category: 'building', age: '6-8', price: 2999, rating: 4.9, img: 'https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?w=500&auto=format&fit=crop&q=60', badge: 'new' },
+    { id: 4, name: 'Telescope Explorer Kit', category: 'educational', age: '9-12', price: 1999, rating: 4.2, img: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 5, name: 'Super Soaker Water Blaster', category: 'outdoor', age: '6-8', price: 999, rating: 4.6, img: 'https://images.unsplash.com/photo-1620331006093-6c8a00ddf8dc?w=500&auto=format&fit=crop&q=60', badge: 'sale', oldPrice: 1499 },
+    { id: 6, name: 'Giant Plush Teddy Bear', category: 'stuffed-animals', age: '0-2', price: 2499, rating: 5.0, img: 'https://images.unsplash.com/photo-1534165561334-0818276f7c70?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 7, name: 'RC Racing Car Pro', category: 'vehicles', age: '9-12', price: 3999, rating: 4.7, img: 'https://images.unsplash.com/photo-1594787317208-e8cb5219ddef?w=500&auto=format&fit=crop&q=60', badge: 'hot' },
+    { id: 8, name: 'Ultimate Slime Kit', category: 'arts-crafts', age: '6-8', price: 799, rating: 4.3, img: 'https://images.unsplash.com/photo-1610486660634-192aa7f4f6b2?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 9, name: 'Super Hero Action Figure', category: 'action-figures', age: '3-5', price: 899, rating: 4.4, img: 'https://images.unsplash.com/photo-1597818987453-6efdc5db91ee?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 10, name: 'Fashion Doll Collection', category: 'dolls', age: '6-8', price: 1799, rating: 4.6, img: 'https://plus.unsplash.com/premium_photo-1678229875475-7b64510b6413?w=500&auto=format&fit=crop&q=60', badge: 'new' },
+    { id: 11, name: 'Creative Blocks XXL', category: 'building', age: '0-2', price: 1599, rating: 4.8, img: 'https://images.unsplash.com/photo-1594236968032-4876b328a1ea?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 12, name: 'Robot Chemistry Lab', category: 'educational', age: '13+', price: 4499, rating: 4.9, img: 'https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?w=500&auto=format&fit=crop&q=60', badge: 'sale', oldPrice: 5999 },
+    { id: 13, name: 'Foldable Kick Scooter', category: 'outdoor', age: '6-8', price: 2999, rating: 4.7, img: 'https://plus.unsplash.com/premium_photo-1661628178652-52ce6d428135?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 14, name: 'Fluffy Bunny Stuffed Toy', category: 'stuffed-animals', age: '0-2', price: 599, rating: 4.5, img: 'https://images.unsplash.com/photo-1559419134-8c430e461a1b?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 15, name: 'Die-Cast Police Cruiser', category: 'vehicles', age: '3-5', price: 699, rating: 4.6, img: 'https://images.unsplash.com/photo-1621255855217-1fce774221d6?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 16, name: 'Watercolor Paint Set', category: 'arts-crafts', age: '13+', price: 499, rating: 4.1, img: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 17, name: 'Dragon Knight Miniature', category: 'action-figures', age: '9-12', price: 899, rating: 4.7, img: 'https://images.unsplash.com/photo-1591585093751-2292f3af5e6b?w=500&auto=format&fit=crop&q=60', badge: 'hot' },
+    { id: 18, name: 'Dream Dollhouse', category: 'dolls', age: '6-8', price: 6999, rating: 4.9, img: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=500&auto=format&fit=crop&q=60', badge: 'sale', oldPrice: 8999 },
+    { id: 19, name: 'Motorized Train Set', category: 'building', age: '9-12', price: 4999, rating: 4.8, img: 'https://images.unsplash.com/photo-1563200782-fa5fed1765c9?w=500&auto=format&fit=crop&q=60', badge: 'new' },
+    { id: 20, name: 'Dinosaur Fossil Dig Kit', category: 'educational', age: '6-8', price: 1199, rating: 4.4, img: 'https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 21, name: 'Junior Basketball Hoop', category: 'outdoor', age: '3-5', price: 2199, rating: 4.5, img: 'https://images.unsplash.com/photo-1629255267440-62aa539423c5?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 22, name: 'Talking Parrot Plush', category: 'stuffed-animals', age: '3-5', price: 1299, rating: 4.2, img: 'https://images.unsplash.com/photo-1606121408801-b7692fcab9ea?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 23, name: 'Fire Engine Truck', category: 'vehicles', age: '3-5', price: 1499, rating: 4.6, img: 'https://images.unsplash.com/photo-1614013442385-e105e46dd240?w=500&auto=format&fit=crop&q=60', badge: '' },
+    { id: 24, name: 'Bead Jewelry Maker', category: 'arts-crafts', age: '9-12', price: 799, rating: 4.3, img: 'https://images.unsplash.com/photo-1550985955-f2dcb6bebbef?w=500&auto=format&fit=crop&q=60', badge: '' }
 ];
 
 // --- STATE ---
@@ -104,7 +104,7 @@ function renderProducts() {
 
     filtered.forEach(p => {
         const badgeHTML = p.badge ? `<span class="product-badge badge-${p.badge}">${p.badge.toUpperCase()}</span>` : '';
-        const oldPriceHTML = p.oldPrice ? `<span class="product-original-price">$${p.oldPrice.toFixed(2)}</span>` : '';
+        const oldPriceHTML = p.oldPrice ? `<span class="product-original-price">₹${p.oldPrice.toLocaleString('en-IN')}</span>` : '';
         
         const card = document.createElement('div');
         card.className = 'product-card';
@@ -122,7 +122,7 @@ function renderProducts() {
                 </div>
                 <div class="product-bottom">
                     <div>
-                        <span class="product-price">$${p.price.toFixed(2)}</span>
+                        <span class="product-price">₹${p.price.toLocaleString('en-IN')}</span>
                         ${oldPriceHTML}
                     </div>
                     <button class="add-to-cart" onclick="addToCart(${p.id})"><i class="fa-solid fa-plus"></i></button>
@@ -188,7 +188,7 @@ function updateCartUI() {
                 <img src="${item.img}" alt="${item.name}" class="cart-item-img">
                 <div class="cart-item-info">
                     <div class="cart-item-title">${item.name}</div>
-                    <div class="cart-item-price">$${item.price.toFixed(2)}</div>
+                    <div class="cart-item-price">₹${item.price.toLocaleString('en-IN')}</div>
                     <div class="quantity-control">
                         <button class="quantity-btn" onclick="updateQuantity(${item.id}, -1)">-</button>
                         <span>${item.quantity}</span>
@@ -202,7 +202,7 @@ function updateCartUI() {
     }
     
     badge.innerText = totalCount;
-    totalValue.innerText = `$${totalPrice.toFixed(2)}`;
+    totalValue.innerText = `₹${totalPrice.toLocaleString('en-IN')}`;
 }
 
 function toggleCart() {
